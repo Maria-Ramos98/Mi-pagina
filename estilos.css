@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|PT+Sans+Narrow|Roboto+Condensed|Roboto|Shadows+Into+Light|Spartan&display=swap');
+html {
+    font-size: 32px;
+    background:url('Riverdale-lago.jpg') no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    height: 200px;
+    margin: auto;
+    margin-top: 0px;
+    /* border: black dashed; */
+}
+#container {
+    height: 50px;
+    width: 960px;
+    background-color: rgba(24, 24, 24, 0.8);
+    margin: 10px;
+    padding: 0px;
+    border-radius: 0px 0px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+color: white;
+font-family: 'Cooper Black' ;
+}
+
+p {
+    margin: 0px 0px 0px 20px;
+    font-size: .5rem;
+    font-family: 'Cooper Black';
+}
+#container p {
+    color: #dde5ec;
+    font-family: 'Cooper Black';
+}
+
+
+header #menu {
+    width: 480px;
+    height: 120px;
+}
+header p{
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.3;
+    color:rgb(255, 255, 255);
+  font-family: 'Cooper Black';
+}
+nav {
+    margin: -12px;
+    height: 120px;
+}
+nav ul {
+    margin: 0px 0px 0px 0px;
+    height: 100px;
+    width: 1300px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4E6642;
+    border: solid black 4px;
+}
+nav li {
+    margin-right: 15px;
+    font-family: 'Cooper Black';
+    font-size: 1.5rem;
+}
+
+nav a {
+    color:black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+ nav a:hover {
+    color:white;
+} 
+
+#banner {
+    width: 1000px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    background: #000066;
+    /* box-shadow: 0px 4px 4px #1c1a19; */
+    position: relative;
+    border: solid white 4px;
+    
+}
+hr{
+    width: 1340px;
+    height: 30px;
+    /* border-top: dashed #003300; */
+    background-color: #003300 ;
+    border: solid black 4px;
+    
+
+
+}
+
+#thumbnails {
+    height: 315px;
+    padding: 0;
+    margin: 50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+.Veronica1 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color:rgb(250, 247, 201);
+    border: solid white 4px;
+    background: url('PAGINA/Veronica_-_T4_-_Portrait (2).jpg') no-repeat;
+    background-position: 35px 15px;
+    position: relative;
+}
+.Veronica1  {background-color: #330033;}
+.Veronica1 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Cooper Black';
+    font-size: .5rem;
+    text-align: justify;
+    line-height: 1.3;
+    color: white;
+}
+.Betty2 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #FFCCFF;
+    border: solid black 4px;
+    background: url('PAGINA/BettyGray (5).jpg') no-repeat;
+    background-position: 35px 15px;
+    position: relative;
+}
+.Betty2 {background-color: #FFCCFF;}
+.Betty2 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Cooper Black';
+    font-size: .5rem;
+    text-align: justify;
+    line-height: 1.3;
+    color:black;
+}
+.Archie3{
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(118, 105, 238);
+    border: solid black 4px;
+    background: url('PAGINA/Archie_-_T4_-_Portrait (2).jpg') no-repeat;
+    background-position: 35px 15px; 
+    position: relative;
+}
+.Archie3 {background-color: #FFCC33;}
+
+.Archie3 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Cooper Black';
+    font-size: .5rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: black;
+}
+
+#thumbnails2 {
+    height: 315px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+.Cherly4 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color:rgb(250, 247, 201);
+    border: solid white 4px;
+    background: url('PAGINA/1b26c492b287f180b100e1d9371c4f9a (2).jpg') no-repeat;
+    background-position: 35px 15px;
+    position: relative;
+}
+.Cherly4  {background-color: #990000;}
+.Cherly4 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Cooper Black';
+    font-size: .5rem;
+    text-align: justify;
+    line-height: 1.4;
+    color: white;
+}
+.Joged5 {
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color:rgb(250, 247, 201);
+    border: solid white 4px;
+    background: url('PAGINA/Temporada_3_-_Jughead_-_02 (2).jpg') no-repeat;
+    background-position: 35px 15px;
+    position: relative;
+}
+.Joged5 {background-color: #666666;}
+.Joged5 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Cooper Black';
+    font-size: .5rem;
+    text-align: justify;
+    line-height: 1.4;
+    color:white;
+}
+.Jossi6{
+    width: 220px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(118, 105, 238);
+    border: solid white 4px;
+    background: url('PAGINA/JosieGray (2).jpg') no-repeat;
+    background-position: 35px 15px;
+    position: relative;
+}
+.Jossi6 {background-color: #333300;}
+
+.Jossi6 p {
+    position: absolute;
+    top: 120px;
+    margin: 0px 15px;
+    font-family: 'Cooper Black';
+    font-size: .5rem;
+    text-align: justify;
+    line-height: 1.4;
+    color: white;
+}
+footer{
+    background-color: #999999;
+}
+
+#contacto {
+    width: 480px;
+    height: 200px;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer #contacto div {
+    margin-left: 20px;
+    display: flex;
+    color: #000000;
+    font-weight: 300;
+    align-items: center;
+    
+}
+
+.redes {
+    margin: -100px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+#redes{
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.redes img {
+    /* margin-inline-start: 10px; */
+    align-items: center;
+}
